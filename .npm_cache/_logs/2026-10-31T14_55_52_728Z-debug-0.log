@@ -1,0 +1,15 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\usrlabecon\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.17.0
+2 info using node@v22.13.0
+3 silly config load:file:C:\Users\usrlabecon\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\usrlabecon\.npmrc
+5 silly config load:file:C:\Users\usrlabecon\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm exec create-vite@latest frontend --template react
+7 verbose argv "exec" "--" "create-vite@latest" "frontend" "--template" "react"
+8 verbose logfile logs-max:10 dir:C:\Users\usrlabecon\Desktop\medeasy\.npm_cache\_logs\2026-10-31T14_55_52_728Z-
+9 verbose logfile C:\Users\usrlabecon\Desktop\medeasy\.npm_cache\_logs\2026-10-31T14_55_52_728Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 http fetch GET 200 https://registry.npmjs.org/create-vite 115ms (cache revalidated)
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912

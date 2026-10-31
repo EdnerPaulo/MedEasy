@@ -1,0 +1,14 @@
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: medeasy_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - DATABASE_URL=sqlite:////app/medeasy.db
+      - ENVIRONMENT=development
+    restart: always
