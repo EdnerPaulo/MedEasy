@@ -42,5 +42,16 @@ class TriagemResponse(TriagemCreate):
     classificacao_risco: Optional[str] = Field(None, json_schema_extra={"example": "AMARELO"})
     criado_em: datetime
 
-    # Atualizado para o padrão Pydantic V2
     model_config = ConfigDict(from_attributes=True)
+
+
+# --- Schemas de Consulta e Enriquecimento por CPF ---
+
+class ConsultaCPFRequest(BaseModel):
+    cpf: str = Field(..., min_length=11, max_length=14, json_schema_extra={"example": "12345678901"})
+
+
+class ConsultaCPFResponse(BaseModel):
+    nome: str = Field(..., json_schema_extra={"example": "Maria Eduarda da Silva"})
+    data_nascimento: str = Field(..., json_schema_extra={"example": "1992-05-14"})
+    idade: int = Field(..., json_schema_extra={"example": 34})
