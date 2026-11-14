@@ -1,0 +1,6 @@
+# Normaliza quebras de linha (evita "arquivos modificados" entre Windows e Linux)
+* text=auto
+*.sh text eol=lf
+*.png binary
+*.jpg binary
+*.svg text

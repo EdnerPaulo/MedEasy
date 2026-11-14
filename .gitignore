@@ -1,0 +1,28 @@
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Banco local e dados
+*.db
+*.sqlite3
+
+# Node / frontend
+node_modules/
+dist/
+.npm_cache/
+npm-debug.log*
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
